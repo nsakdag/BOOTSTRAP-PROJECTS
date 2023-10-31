@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background: url(./img/banner.jpeg) no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: purple;
+  height: 100vh;
+  
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+    text-align: center !important;
+}
+
+.circle i {
+    position: relative;
+    top: 30px;
+}
+
+
+.team img {
+    width: 250px;
+    border: 10px solid #cccc;
+}
+
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+.adresses img {
+    width: 100px;
+}
+
+.contact {
+    background: url(./img/map.jpeg) no-repeat center center;
+    background-size: cover;
+   
+    color: #eee;
+}
